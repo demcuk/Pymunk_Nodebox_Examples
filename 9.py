@@ -1,7 +1,4 @@
-#Переіменовані деякі функції щоб зробити їх більш зрозумілими create_body, move_robot_towards_target, move_robot_with_q_learning.
-#Замість strategy і strategy2 тепер використовується move_robot_towards_target та move_robot_with_q_learning для чіткої структуризації.
-#Оновлено функцію simulate_friction для плавного зниження швидкості.
-#Перероблено вибір дії робота для покращення стабільності стратегії з використанням epsilon-greedy алгоритму.
+
 
 from __future__ import division
 from nodebox.graphics import *
